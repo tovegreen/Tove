@@ -1,0 +1,41 @@
+body{
+	
+	background-color: pink;
+	
+}
+
+
+table {
+	background-color: pink;
+	border: 2px solid green;
+	
+}
+
+th{
+	
+	text-transform: uppercase;
+	color:grey;
+	
+	
+}
+
+span{
+	
+	color: grey;
+	
+}
+
+h1 {
+	
+	color:grey;
+}
+
+h2{
+	
+	color:green;
+}
+
+footer {
+	
+	color: green;
+}
