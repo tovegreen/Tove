@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html>
+<head>
+
+<title>marknad</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Tove Green">
+	<link href="styles/produkt.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+	<div id="logo">
+	<img src="bilder/logo2.png"/>
+	</div>
+	
+    <header>
+	<ul>
+	<li>Hem</li>
+	<li>Produkter</li>
+	<li class="coming-soon">Services</li>
+	<li>Om oss</li>
+	<li>Min sida</li>
+	<li>Kundkorg</li>
+	</ul>
+	</header>
+	<br/>
+
+	<fieldset>
+		<legend>Dina uppgifter</legend>
+		
+		<table>
+		<tr>
+		<td><label>Ålder: <input type="text" name="ålder"/></label></td>
+		</tr>
+	
+	<tr>
+	
+	<td> <label>Namn: <input type="text" name="Namn" 
+		size="30" maxlength="100">
+		</label> </td>
+	</tr>
+	
+	<tr>
+		<td> <label>Mailadress<input type="email" name="email"
+		size="30" maxlength="100">
+		 </label></td>
+	</tr>
+		
+		</table>
+		
+		
+		</fieldset>
+		
+		<br/>
+		<fieldset>
+		<legend>Undersökning</legend>
+		
+		<p>
+		<label for="hear about us">
+		Hur hörde du talas om oss?
+		</label>
+		
+		<select name="referrer" id="hear about">
+			<option value="google">Google</option>
+			<option value="vän">Genom en vän</option>
+			<option value="Advert">Reklam</option>
+			<option value="Other">Annat</option>
+		</select>
+		</p>
+		
+		<p> Vill du besöka oss igen
+		<br/>
+		<input type="radio" name="rating" value="Ja" />
+		Ja
+		</label>
+		
+		<label>
+		<input type="radio" name="rating" value="nej" />
+		Nej
+		</label>
+		
+		<label>
+		<input type="radio" name="rating" value="Kanske" />
+		Kanske
+		</label>
+		</p>
+		<label for="Kommentarer">
+		Kommentarer
+		</label>
+		<br/>
+		<textarea rows="4" cols="40" id="comments">
+		</textarea>
+		</p>
+		<label>
+			<input type="checkbox" name="Skicka" checked="checked"/>
+			Uppdatara mig med nyhetsbrev
+			</label>
+			<br/>
+			<input type="Submit" value="Skicka"/>
+			
+		</fieldset>
+		
+		
+		
+	
+	<footer> Tove Green copyright </footer>
+</body>
+
+
+
+</html>
