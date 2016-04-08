@@ -69,3 +69,43 @@ footer{
 	
 	
 }
+
+td {
+	border: grey;
+}
+
+p{
+	
+	font-family : times;
+	
+}
+
+input.submit:hover {
+	background-color: grey;
+	
+}
+
+input.text {
+	
+	color: darkgrey;
+}
+
+input.text:focus {
+	
+	color: darkgrey;
+}
+
+footer{
+	background-color: grey;
+}
+
+fieldset{
+	text-align:
+	
+}
+
+label{
+	
+	text-align: left;
+	
+}
