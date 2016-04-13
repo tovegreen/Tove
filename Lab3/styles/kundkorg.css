@@ -1,5 +1,65 @@
-fieldset{
+body{
 	
-	float:left
+	background-color:;
+	
+img{
+	width:100px; height:150px;
+}
+
+li{
+	
+	display: inline;
+	margin-right: 10px;
+}
+
+li.coming-soon {
+	display:none;
+
+	
+}
+ul{
+	width: 570px;
+	padding:15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid#000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	
+}
+
+
+#logo {
+	width: 150px;
+	margin: 10px auto 25px auto;
+	
+}
+
+footer{
+	
+	clear: both;
+}
+
+p{
+	text-align: center;
+	
+}
+
+table{
+	
+	float:left;
+	
+}
+
+form{
+	
+	float:none;
+	
+}
+
+footer{
+	
+	background-color: grey:
+	padding: 10px
+	
 	
 }
