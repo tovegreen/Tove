@@ -4,10 +4,10 @@ display: inline;
 
 }
 
-img{
+.aside{
 	
 	width: 280px;
-
+    height: 250px;
 	padding: 15px;
 	
  
@@ -16,8 +16,8 @@ img{
 .bild {
 	
 	width:250px;
-	
-	
+	height: 200px;
+	border:1px solid #85634D;
 }
 
 .pt{
@@ -25,6 +25,8 @@ img{
 float:right;
 margin: 10px;
 width: 250;	
+border:1px solid #85634D;
+
 }
 
 nav ul li a{
@@ -35,4 +37,111 @@ nav ul li a{
 nav{
 	
 	background-color: #85634D
+}
+
+.bokapt{
+	
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: large;
+	color:white;
+	background-color:#85634D;
+	padding-right: 10px;
+	
+}
+
+.recept{
+	
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: large;
+	color:white;
+	background-color:#85634D;
+	padding-right: 10px;
+	
+}
+
+.ovningar{
+	
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: large;
+	color:white;
+	background-color:#85634D;
+	padding-right: 10px;
+	
+}
+
+.balans{
+	
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: large;
+	color:white;
+	background-color:#85634D;
+	padding-right: 10px;
+}
+
+.mamma{
+	
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: large;
+	color:white;
+	background-color:#85634D;
+	padding-right: 10px;
+
+}
+
+.rehab{
+	
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: large;
+	color:white;
+	background-color:#85634D;
+	padding-right: 10px;
+	border:1px solid #85634D;
+}
+
+
+body{
+	
+	background-image: url("../pages/bakgrund.jpg");
+	background-attachment: fixed;
+	
+}
+
+p{
+	
+	color:grey;
+}
+
+#wrapper{
+	
+	background-color:F1F2E1;
+	opacity: 1.0;
+	
+	
+}
+
+footer{
+	
+	
+}
+
+input{
+	float:right;
+	margin-top:180px;
+}
+
+.korg{
+	
+	float:right;
 }
