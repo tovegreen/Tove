@@ -3,3 +3,36 @@ ul li {
 display: inline;
 
 }
+
+img{
+	
+	width: 280px;
+
+	padding: 15px;
+	
+ 
+}
+
+.bild {
+	
+	width:250px;
+	
+	
+}
+
+.pt{
+	
+float:right;
+margin: 10px;
+width: 250;	
+}
+
+nav ul li a{
+	
+	color: white;
+}
+
+nav{
+	
+	background-color: #85634D
+}
