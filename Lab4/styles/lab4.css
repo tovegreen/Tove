@@ -13,12 +13,7 @@ display: inline;
  
 }
 
-.bild {
-	
-	width:250px;
-	height: 200px;
-	border:1px solid #85634D;
-}
+
 
 .pt{
 	
@@ -26,7 +21,7 @@ float:right;
 margin: 10px;
 width: 250;	
 border:1px solid #85634D;
-
+margin: 20px;
 }
 
 nav ul li a{
@@ -48,6 +43,8 @@ nav{
 	color:white;
 	background-color:#85634D;
 	padding-right: 10px;
+	margin-left: 80px;
+	margin-right: 50px;
 	
 }
 
@@ -60,8 +57,19 @@ nav{
 	color:white;
 	background-color:#85634D;
 	padding-right: 10px;
+	margin-left: 80px;
+	margin-right: 50px;
+
 	
 }
+	
+	.bild{
+	width:300px;
+	height: 300px;
+	border:1px solid #85634D;
+	margin: 70px;
+	}
+
 
 .ovningar{
 	
@@ -72,7 +80,8 @@ nav{
 	color:white;
 	background-color:#85634D;
 	padding-right: 10px;
-	
+	margin-left: 80px;
+	margin-right: 50px;
 }
 
 .balans{
@@ -84,6 +93,8 @@ nav{
 	color:white;
 	background-color:#85634D;
 	padding-right: 10px;
+		margin-left: 50px;
+	margin-right: 50px;
 }
 
 .mamma{
@@ -95,6 +106,8 @@ nav{
 	color:white;
 	background-color:#85634D;
 	padding-right: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
 
 }
 
@@ -108,6 +121,8 @@ nav{
 	background-color:#85634D;
 	padding-right: 10px;
 	border:1px solid #85634D;
+		margin-left: 50px;
+	margin-right: 50px;
 }
 
 
@@ -115,7 +130,7 @@ body{
 	
 	background-image: url("../pages/bakgrund.jpg");
 	background-attachment: fixed;
-	
+	margin-left:30px;
 }
 
 p{
@@ -127,12 +142,12 @@ p{
 	
 	background-color:F1F2E1;
 	opacity: 0.9;
-	
+	margin: 10px auto;
 	
 }
 
 footer{
-
+border-right: 50px;
 	
 }
 
@@ -177,6 +192,7 @@ h2, h3 {
 background-color: #eeeeee;
 color: #666666;
 text-shadow: 1px 1px 0px #000000;
+margin-left: 50px;
 }
 
 fieldset{
@@ -195,6 +211,7 @@ fieldset{
 
 p{
 	color:black;
+	margin-left: 50px;
 }
 
 .produkt{
@@ -212,4 +229,15 @@ p{
 	.streck {
 		
 		border-left: 1px solid black
+	}
+	
+	a {
+		text-decoration:none;
+		font-size:1.9rem;
+		margin-right: 20px;}
+	
+	figure{
+		
+		width:200px
+
 	}
