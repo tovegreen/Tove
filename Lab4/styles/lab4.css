@@ -179,6 +179,7 @@ input[type="submit"] {
 	float:none;
 }
 
+
 h2:hover {
 	background-color:#85634D;
 	}	
@@ -247,4 +248,9 @@ p{
 	small{
 		
 		margin-left: 10px;
+	}
+	
+	.sok{
+		
+		float:right;
 	}
