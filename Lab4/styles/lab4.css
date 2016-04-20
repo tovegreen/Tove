@@ -163,7 +163,7 @@ input{
 
 .karta{
 	
-	float:center;
+	margin-left:10px;
 }
 
 .nyhetsbrev
@@ -224,6 +224,7 @@ p{
 	.footer{
 		
 		border-right: 1px solid black;
+		
 	}
 	
 	.streck {
@@ -234,10 +235,16 @@ p{
 	a {
 		text-decoration:none;
 		font-size:1.9rem;
-		margin-right: 20px;}
+		margin-right: 20px;
+		}
 	
 	figure{
 		
 		width:200px
 
+	}
+	
+	small{
+		
+		margin-left: 10px;
 	}
