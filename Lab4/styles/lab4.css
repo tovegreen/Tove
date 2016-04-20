@@ -136,6 +136,8 @@ body{
 p{
 	
 	color:grey;
+	text-align: center;
+	
 }
 
 #wrapper{
@@ -253,4 +255,10 @@ p{
 	.sok{
 		
 		float:right;
+	}
+	
+	h1{
+		
+		text-align: center;
+		margin: 20px;
 	}

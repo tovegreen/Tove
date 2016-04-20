@@ -14,8 +14,9 @@
 </head>
 
 <body>
+	<header>
 	<div class="container">
-		<header>
+		
 		<section class="row">
 		<div class="col-sm-2 col-md-3">
 			<img src="bilder/loggan.jpe" class="logga" alt="foretagslogga">
@@ -28,8 +29,8 @@
 		</div>
 		
 		<img src="bilder/skärmklipp.PNG" class="korg" alt="varukorg" />
+		</div>
 		</section>
-	
 		
 		<section class="row">
 		<div class="col-sm-2 col-md-3">
@@ -49,6 +50,7 @@
 		   </nav>
 		   
 		   </section>
+		   </div>
 		   </header>
 		   
 		   <div id="wrapper">
@@ -60,37 +62,37 @@
 				<p>En orderbekräftelse har skickats till den angivna epostadressen</p>
 				
 				</article>
-				</br>
+				<br/>
 				<div class="row">
 				<section class="col-sm-4">
 					<figure>
 						<img src="bilder/bokapt.jpg" class="bild" alt="tränings">
-						<p class="bokapt">Boka PT</p>
+						<input type="submit" class="bokapt" name="subscribe" value="Boka PT" /> 
 					</figure>
 				</section>
 				
 				<section class="col-sm-4">
 					<figure>
 						<img src="bilder/recept.jpg" class="bild" alt="recept">
-						<p class="recept">Recept</p>
+						<input type="submit" class="recept" name="subscribe" value="Recept" />
 					</figure>
 				</section>
 				
 				<section class="col-sm-4">
 					<figure>
 					<img src="bilder/ovningar.jpg" class="bild" alt="träning">
-					<p class="ovningar">Övningar</p>
-					</figure>
+					<input type="submit" class="ovningar" name="subscribe" value="Övningar" />
+					</figure>	
 				</section>
 				</div>
 				</section>
 				<aside class="col-sm-3 streck">
-				 <img src="bilder/aside1.jpg" class="aside"alt="träning">
-				 <p class="balans">PT-PAKET BALANS</p>
+				 <img src="bilder/aside1.jpg" class="aside" alt="träning">
+				 <input type="submit" class="balans" name="subscribe" value="PT-PAKET BALANS" />
 				<img src="bilder/aside2.jpg" class="aside" alt="mammaträning">
-				<p class="mamma"><a href="produkt.html">PT-PAKET MAMMA</a></p>
-				 <img src="bilder/aside3.jpg" class="aside" alt="rehab">
-				 <p class="rehab">PT-PAKET REHAB</p>
+				<a href="produkt.html"><input type="submit" class="mamma" name="subscribe" value= "PT-PAKET MAMMA" />
+				<img src="bilder/aside3.jpg" class="aside" alt="rehab">
+				 <input type="submit" class="rehab" name="subscribe" value="PT-PAKET REHAB" /> 
 				</aside>
 	
 			</div>
@@ -101,30 +103,37 @@
 	<section class="col-sm-4 col-md-4 footer">
 		<h3>Hitta till oss</h3>
 		<img src="bilder/karta.PNG" class="karta" alt="kartagoogle">
-		<small><p>Adress</p></small>
-		<small><p>Stenungsundsvägen 123</p></small>
-		<small><p>123 45 Stenungsund</p></small>
-		<small><p>Telefon: 070-123 45 67</p></small>
-		<small><p>info@ptathome.se</p></small>
-	</section>
+		<br/>
+		<small>Adress</small>
+		<br/>
+		<small>Stenungsundsvägen 123</small>
+		<br/>
+		<small>123 45 Stenungsund</small>
+		<br/>
+		<small>Telefon: 070-123 45 67</small>
+		<br/>
+		<small>info@ptathome.se</small>
+		</section>
 
 <section class="col-sm-4 col-md-4 footer">
-	<h3>Information</h3>
-	<ul>
+	 <h3>Information</h3>
+	<ol>
 	<li><a href="produktsida.html">Support</a></li>
 	<li><a href="produktsida.html">FAQ</a></li>
 	<li><a href="produktsida.html">Vilkor</a></li>
 	<li><a href="produktsida.html">Allmänna reklamtionsbyrån</a></li>
 	<li><a href="produktsida.html">Eu:s hjälp vid tvist</a></li>
-	</ul>
+	</ol>
 </section>
+
+
 <section class="col-sm-4 col-md-4">
 	<h3>Nyhetsbrev</h3>
 	<p>Signa upp till vårt nyhetsbrev</p>
 	<input type="submit" name="subscribe" value="Prenumerera" />
 	<input type="text" class="nyhetsbrev" name="Email" />
+	</section>
 </footer>
 	</div>
-</div>
 </body>
 </html>
