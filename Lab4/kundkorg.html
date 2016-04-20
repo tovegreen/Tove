@@ -17,22 +17,24 @@
 	<header>
 	<div class="container">
 		
-		<section class="row">
+		<div class="row">
 		<div class="col-sm-2 col-md-3">
 			<img src="bilder/loggan.jpe" class="logga" alt="foretagslogga">
 		</div>
 			
 		<div class="col-sm-10 col-md-9">
+		<form>
 		<input type="search" name="search"
 		placeholder="Sök blogginlägg"/>
 		<input type="submit" value="Sök"/>
+		</form>
 		</div>
 		
 		<img src="bilder/skärmklipp.PNG" class="korg" alt="varukorg" />
-		</div>
-		</section>
 		
-		<section class="row">
+		</div>
+		
+		<div class="row">
 		<div class="col-sm-2 col-md-3">
 		</div>
 			
@@ -49,14 +51,14 @@
 			 </ul>
 		   </nav>
 		   
-		   </section>
+		   </div>
 		   </div>
 		   </header>
 		   
 		   <div id="wrapper">
 			<div class="row">
 			
-			<section class="col-sm-9">
+			<div class="col-sm-9">
 				<article>
 				<img src="bilder/aside2.jpg" class="aside" alt="mammaträning">
 					<table>
@@ -69,74 +71,51 @@
 						</tr>
 					</table>
 				  <br/>
-				<form>
-				<fieldset>
-					<table>
-						<tr>
-							<td>	<label for="Namn">Namn</label></td>
-							<td><input name="Namn" required id="Namn"/></td>
-						</tr>
-						
-						<tr>
-							<td>	<label for="Namn">Efternamn</label></td>
-							<td><input name="Namn" required id="Efteramn"/></td>
-						</tr>
-						
-						<tr>
-							<td>	<label for="Namn">Gatuadress</label></td>
-							<td><input name="Namn" required id="Gatuadress"/></td>
-						</tr>
-						
-						<tr>
-							<td>	<label for="Namn">Postnr</label></td>
-							<td><input name="Namn" required id="Postnr"/></td>
-						</tr>
+				<form action="tack.html">
 				
-						<tr>
-							<td>	<label for="Namn">Postort</label></td>
-							<td><input name="Namn" required id="Postnr"/></td>
-						</tr>
-					
-						<tr>
-							<td>	<label for="Namn">Telefonnr</label></td>
-							<td><input name="Namn" required id="Telefonnr"/></td>
-						</tr>
+				<label for="Namn">Namn</label>
+				<input name="Namn" required id="Namn"/>
+		     	<label for="Namn">Efternamn</label>
+				<input name="Namn" required id="Efteramn"/>
+				<label for="Namn">Gatuadress</label>
+				<input name="Namn" required id="Gatuadress"/>
+				<label for="Namn">Postnr</label>
+				<input name="Namn" required id="Postnr"/>
+				<label for="Namn">Postort</label>
+				<input name="Namn" required id="Postort"/>
+				<label for="Namn">Telefonnr</label>
+			    <input name="Namn" required id="Telefonnr"/>
+				<label for="Namn">Mailadress</label>
+				<input name="Namn" required id="Mailadress"/>
 						
-						<tr>
-							<td>	<label for="Namn">Mailadress</label></td>
-							<td><input name="Namn" required id="Mailadress"/></td>
-						</tr>
-						
-					</table>
-					</fieldset>
 				</form>
-				 <a href="tack.html"><input type="submit" class="kop" name="subscribe" value="Köp" /> 
+				<input type="submit" class="kop" name="subscribe" value="Köp" /> 
 				
 				</article>
 				<br/>
 				<div class="row">
-				<section class="col-sm-4">
+				<div class="col-sm-4">
 					<figure>
 						<img src="bilder/bokapt.jpg" class="bild" alt="tränings">
 						<input type="submit" class="bokapt" name="subscribe" value="Boka PT" /> 
 					</figure>
-				</section>
+				</div>
 				
-				<section class="col-sm-4">
+				<div class="col-sm-4">
 					<figure>
 						<img src="bilder/recept.jpg" class="bild" alt="recept">
 						<input type="submit" class="recept" name="subscribe" value="Recept" />
 					</figure>
-				</section>
+				</div>
 				
-				<section class="col-sm-4">
+				<div class="col-sm-4">
 					<figure>
 					<img src="bilder/ovningar.jpg" class="bild" alt="träning">
 					<input type="submit" class="ovningar" name="subscribe" value="Övningar" />
 					</figure>	
-				</section>
 				</div>
-				</section>
+				</div>
+				</div>
 				<aside class="col-sm-3 streck">
 				 <img src="bilder/aside1.jpg" class="aside" alt="träning">
 				 <input type="submit" class="balans" name="subscribe" value="PT-PAKET BALANS" />
@@ -185,6 +164,7 @@
 	<input type="text" class="nyhetsbrev" name="Email" />
 	</section>
 </footer>
+	</div>
 	</div>
 </body>
 </html>
