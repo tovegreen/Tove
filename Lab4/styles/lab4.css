@@ -43,7 +43,7 @@ nav{
 	
 	position: relative;
 	top: -110px;
-	text-align: center;
+	text-align: left;
 	font-size: large;
 	color:white;
 	background-color:#85634D;
@@ -126,13 +126,13 @@ p{
 #wrapper{
 	
 	background-color:F1F2E1;
-	opacity: 1.0;
+	opacity: 0.9;
 	
 	
 }
 
 footer{
-	
+
 	
 }
 
@@ -145,3 +145,71 @@ input{
 	
 	float:right;
 }
+
+.karta{
+	
+	float:center;
+}
+
+.nyhetsbrev
+{
+	margin-top: 10px;
+	float: left;
+	
+}
+
+input[type="submit"] {
+	
+	margin-top: 10px;
+	float:none;
+}
+
+h2:hover {
+	background-color:#85634D;
+	}	
+	
+	h3:hover {
+	background-color:#85634D;
+	}	
+	
+h2, h3 {
+	
+background-color: #eeeeee;
+color: #666666;
+text-shadow: 1px 1px 0px #000000;
+}
+
+fieldset{
+	
+	text-transform: uppercase;
+	border-bottom: solid lightgrey;
+	margin-left: 10px;
+	display: block;
+}
+
+.btn-link{
+	
+	background-color:grey;
+	color: black;
+}
+
+p{
+	color:black;
+}
+
+.produkt{
+	height: 300px;
+	width:300px;
+	
+}
+	
+	
+	.footer{
+		
+		border-right: 1px solid black;
+	}
+	
+	.streck {
+		
+		border-left: 1px solid black
+	}
