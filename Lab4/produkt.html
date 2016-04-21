@@ -16,7 +16,7 @@
 <body>
 	<div class="container">
 		<header>
-		<section class="row">
+		<div class="row">
 		<div class="col-sm-2 col-md-3">
 			<img src="bilder/loggan.jpe" class="logga" alt="foretagslogga">
 		</div>
@@ -28,10 +28,9 @@
 		</div>
 		
 		<img src="bilder/skärmklipp.PNG" class="korg" alt="varukorg" />
-		</section>
-	
+		</div>
 		
-		<section class="row">
+		<div class="row">
 		<div class="col-sm-2 col-md-3">
 		</div>
 			
@@ -48,16 +47,17 @@
 			 </ul>
 		   </nav>
 		   
-		   </section>
+		   </div>
 		   </header>
 		   
 		   <div id="wrapper">
 			<div class="row">
 			<br/>
-			<section class="col-sm-9">
+			<div class="col-sm-9">
 				<article>
+					<h2>PT-paket mamma</h2>
 					<img src="bilder/aside2.jpg" class="produkt" alt="mammaträning">
-					<h1>PT-paket mamma</h1>
+					
 					<p>Allt detta ingår i paketet PT-mamma</p>
 					
 					<ol>
@@ -70,54 +70,55 @@
 					<li>Tillgång till support</li>
 					</ol>
 				
-					<tr>
-						<td>
+					
 						<p>Antal veckor</p>
 						<select name="Veckor">
 							<option value="4 veckor">4 veckor</option>
 							<option value="6 veckor">6 veckor</option>
 							<option value="8 veckor">8 veckor</option>
 							<option value="12 veckor">12 veckor</option>
-						</select>
-						</td>
-						</tr>
+						</select>	
+					<a href="kundkorg.html"> <span class="kundkorg">Lägg i varukorg</span>
+					</a>
 					
-					<a href="kundkorg.html"><input type="submit" name="subscribe" value="Lägg till i varukorg" />
 					
 					
 				</article>
 				
-				</br>
+				<br/>
 				<div class="row">
-				<section class="col-sm-4">
+				<div class="col-sm-4">
 					<figure>
 						<img src="bilder/bokapt.jpg" class="bild" alt="tränings">
 						<p class="bokapt">Boka PT</p>
 					</figure>
-				</section>
+				</div>
 				
-				<section class="col-sm-4">
+				<div class="col-sm-4">
 					<figure>
 						<img src="bilder/recept.jpg" class="bild" alt="recept">
 						<p class="recept">Recept</p>
 					</figure>
-				</section>
+				</div>
 				
-				<section class="col-sm-4">
+				<div class="col-sm-4">
 					<figure>
 					<img src="bilder/ovningar.jpg" class="bild" alt="träning">
 					<p class="ovningar">Övningar</p>
 					</figure>
-				</section>
 				</div>
-				</section>
+				</div>
+				</div>
 				<aside class="col-sm-3 streck">
-				 <img src="bilder/aside1.jpg" class="aside"alt="träning">
-				 <p class="balans">PT-PAKET BALANS</p>
-				 <img src="bilder/aside2.jpg" class="aside" alt="mammaträning">
-				 <p class="mamma">PT-PAKET MAMMA</p>
-				 <img src="bilder/aside3.jpg" class="aside" alt="rehab">
-				 <p class="rehab">PT-PAKET REHAB</p>
+				<img src="bilder/aside1.jpg" class="aside" alt="träning">
+				<a href="input.html"> <span class="addProduct">PT-PAKET BALANS</span>
+				</a>
+				<img src="bilder/aside2.jpg" class="aside" alt="mammaträning">
+				<a href="input.html"> <span class="addProduct">PT-PAKET MAMMA</span>
+				</a>
+				<img src="bilder/aside3.jpg" class="aside" alt="rehab">
+				<a href="input.html"> <span class="addProduct">PT-PAKET REHAB</span>
+				</a> 
 				</aside>
 	
 			</div>
@@ -128,22 +129,26 @@
 	<section class="col-sm-4 col-md-4 footer">
 		<h3>Hitta till oss</h3>
 		<img src="bilder/karta.PNG" class="karta" alt="kartagoogle">
-		<small><p>Adress</p></small>
-		<small><p>Stenungsundsvägen 123</p></small>
-		<small><p>123 45 Stenungsund</p></small>
-		<small><p>Telefon: 070-123 45 67</p></small>
-		<small><p>info@ptathome.se</p></small>
+		<small>Adress</small>
+		<br/>
+		<small>Stenungsundsvägen 123</small>
+		<br/>
+		<small>123 45 Stenungsund</small>
+		<br/>
+		<small>Telefon: 070-123 45 67</small>
+		<br/>
+		<small>info@ptathome.se</small>
 	</section>
 
 <section class="col-sm-4 col-md-4 footer">
 	<h3>Information</h3>
-	<ul>
+	<ol>
 	<li><a href="produktsida.html">Support</a></li>
 	<li><a href="produktsida.html">FAQ</a></li>
 	<li><a href="produktsida.html">Vilkor</a></li>
 	<li><a href="produktsida.html">Allmänna reklamtionsbyrån</a></li>
 	<li><a href="produktsida.html">Eu:s hjälp vid tvist</a></li>
-	</ul>
+	</ol>
 </section>
 
 <section class="col-sm-4 col-md-4">
@@ -151,8 +156,10 @@
 	<p>Signa upp till vårt nyhetsbrev</p>
 	<input type="submit" name="subscribe" value="Prenumerera" />
 	<input type="text" class="nyhetsbrev" name="Email" />
+</section>
 </footer>
 	</div>
+</div>
 </div>
 </body>
 </html>
